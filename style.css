@@ -1,0 +1,733 @@
+
+html{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+body{
+    position: static;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100vw;
+}
+h1, h2{
+    font-weight: 700;
+}
+p{
+    font-weight: 500;
+}
+header{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(257, 7%, 63%);
+}
+#bar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#bar p{
+    margin: 0 0 0 35px;
+    cursor: pointer;
+}
+#imgLogo{
+    width: 15%;
+}
+#bar p:hover{
+   color: black;
+}
+#login{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.but{
+    color: white;
+    border :0;
+    background: hsl(180, 66%, 49%);
+    cursor: pointer;
+}
+.but:hover{
+    background: hsl(180, 65%, 73%);
+}
+#login button{
+    margin-left: 35px;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+}
+#login p:hover{
+    color: black;
+    cursor: pointer;
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.square{
+    width: 900px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#text{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 70px 0 0 0;
+}
+#text h1{
+    font-size: 70px;
+    margin: 0;
+    letter-spacing: -2PX;
+    line-height: 1.2;
+}
+#text p{
+    color: hsl(257, 7%, 63%);
+    font-size: 19px;
+    margin: 7px 0 35px 0;
+    width: 90%;
+}
+#text button{
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    font-weight: 700;
+}
+#img{
+    width: 65%;
+    height: 80%;
+    margin-right: -300px;
+    background-image: url("images/illustration-working.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#square2{
+    width: 100%;
+    background-color:hsl(0, 9%, 87%);
+    margin-top: -20px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+#float{
+    position: absolute;
+    width: 900px;
+    height: 120px;
+    background-color: hsl(257, 27%, 26%);
+    background-image:url("images/bg-shorten-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 570px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:hsl(257, 7%, 63%) ;
+}
+#float input{
+    width: 70%;
+    height: 38px;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 3% 0  6%;
+    color:hsl(257, 7%, 63%) ;
+    padding-left: 15px;
+}
+#float button{
+    width: 15%;
+    height: 38px;
+    border-radius: 5px;
+}
+#box{
+    color:hsl(257, 27%, 26%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    padding-top: 70px;
+}
+#secAE{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 470px;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+#secAE h2{
+    margin: 0; 
+    color:black ; 
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    margin-bottom: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start ;
+    width: 210px;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding: 25px 30px 25px 30px;
+    position: relative;
+}
+.card h2{
+    color:black ; 
+    font-size: 16px;
+    margin: 30px 0 0 0;
+}
+.card p{
+    font-size: 12px;
+}
+.dois{
+    margin-top: 40px;
+}
+.tres{
+    margin-top: 80px;
+}
+#line{
+    position: absolute;
+    width: 850px;
+    height: 5px;
+    background: hsl(180, 66%, 49%);
+    top: 1070px;
+}
+#imgS{
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    background: hsl(257, 27%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 60px;
+    margin-top: -75px;
+    position: absolute;
+    top: 45px;
+}
+#imgS img{
+    width: 29px;
+    height: 29px;
+}
+#fooMain{
+    height: 220px;
+    background: hsl(257, 27%, 26%);
+    background-image: url("images/bg-boost-desktop.svg");
+    width: 105vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#fooMain h2{
+    color:white;
+}
+#fooMain button{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 30px;
+    background: hsl(260, 8%, 14%);
+}
+#footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 900px;
+    height: 200px;
+    margin-top: 50px;
+}
+#logoFoo{
+    width: 25%;
+    margin-left: 30px;
+    color: white;
+    margin: 0;
+}
+#footer div nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+#footer div nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+}
+#imgNav{
+    display: none;
+    position: absolute;
+}
+#footer div nav ul li:first-child{
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: white;
+}
+#footer div nav ul li{
+    list-style: none;
+    margin: 0;
+    color: hsl(0, 0%, 75%);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#footer div nav ul li:hover{
+    color: hsl(180, 66%, 49%);
+}
+#footer div section{
+    width: 25%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    margin-top: 5px;
+}
+#footer div section img{
+    cursor: pointer;
+}
+#result{
+    background: white;
+    margin: 10px 0 10px 0 ;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#bigLink{
+    margin-left: 20px;
+}
+#boxCopy{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 20px;
+    gap: 20px;
+}
+#boxCopy button{
+    width: 70px;
+    height: 30px;
+}
+.active{
+    background: hsl(260, 8%, 14%);
+}
+.click{
+    border-radius: 8px;
+}
+.click:hover{
+    background: hsl(260, 8%, 14%);
+}
+@media (max-width: 1000px) {
+    header{
+        transform: scale(0.9);
+        width: 90%;
+    }
+    main{
+        width: 100%;
+    }
+    .square{
+        width: 80%;
+    }
+    #text{
+        width: 60%;
+        height: 100%;
+        margin: 10px 0 0 0;
+    }
+    #float{
+
+        width: 700px;
+
+    }
+    #box{
+        color:hsl(257, 27%, 26%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 900px;
+        padding-top: 70px;
+    }
+    #secAE{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 470px;
+        height: 200px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #cards{
+        transform: scale(0.88);
+    }
+    #footer div{
+        width: 90%;
+    }
+    #logoFoo{
+        width: 20%;
+        margin-left: 30px;
+        color: white;
+        margin: 0;
+    }
+    #line{
+        width: 500px;
+    }
+    #result{ 
+        width: 80%;
+    }
+}
+@media (max-width: 790px) {
+    header{
+        transform: scale(0.9);
+    }
+    nav{
+        display: none;
+    }
+    #imgNav{
+        display: block;
+        width: 30px;
+        position: relative;
+    }
+    .square{
+        flex-direction: column-reverse;
+        height: 950px;
+    }
+    #img{
+        width: 120%;
+        height: 100%;
+    }
+    #text{
+        width: 100%;
+        height: 50%;
+        margin: 10px 0 150px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #square2{
+        width: 100vw;
+        background-color:hsl(0, 9%, 87%);
+        margin-top: -20px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    
+    }
+    #float{
+        top: 970px;
+        border: 0;
+        width: 80%;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #float button{
+        width: 70%;
+    }
+    #box{
+        width: 80%;
+    }
+    #secAE{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 470px;
+        height: 200px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #secAE h2{
+        margin: 0; 
+        color:black ; 
+    }
+    #cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 900px;
+        margin-bottom: 100px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start ;
+        width: 210px;
+        height: 150px;
+        background: white;
+        border-radius: 10px;
+        margin-top: 0px;
+        padding: 25px 30px 25px 30px;
+        position: relative;
+    }
+    .card h2{
+        color:black ; 
+        font-size: 16px;
+        margin: 30px 0 0 0;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .dois{
+        margin-top: 40px;
+    }
+    .tres{
+        margin-top: 80px;
+    }
+    #line{
+        position: absolute;
+        width: 850px;
+        height: 5px;
+        background: hsl(180, 66%, 49%);
+        top: 1070px;
+    }
+    #imgS{
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        background: hsl(257, 27%, 26%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        border-radius: 60px;
+        margin-top: -75px;
+        position: absolute;
+        top: 45px;
+    }
+    #imgS img{
+        width: 29px;
+        height: 29px;
+    }
+    #fooMain{
+        height: 220px;
+        background: hsl(257, 27%, 26%);
+        background-image: url("images/bg-boost-desktop.svg");
+        width: 105vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #fooMain h2{
+        color:white;
+    }
+    #fooMain button{
+        width: 120px;
+        height: 35px;
+        border-radius: 20px;
+    }
+    #footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        padding: 30px;
+        background: hsl(260, 8%, 14%);
+    }
+    #footer div{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 900px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    #logoFoo{
+        width: 25%;
+        margin-left: 30px;
+        color: white;
+        margin: 0;
+    }
+    #footer div nav{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin: 0 20px 0 0;
+        padding: 0;
+    }
+    #footer div nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+    }
+    #imgNav{
+        display: none;
+        position: absolute;
+    }
+    #footer div nav ul li:first-child{
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    #footer div nav ul li{
+        list-style: none;
+        margin: 0;
+        color: hsl(0, 0%, 75%);
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    #footer div nav ul li:hover{
+        color: hsl(180, 66%, 49%);
+    }
+    #footer div section{
+        width: 25%;
+        height: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        align-items: center;
+        margin-top: 5px;
+    }
+    #footer div section img{
+        cursor: pointer;
+    }
+    #result{
+        background: white;
+        margin: 10px 0 10px 0 ;
+        height: 50px;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    #float{
+
+        width: 700px;
+
+    }
+    #box{
+        color:hsl(257, 27%, 26%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 900px;
+        padding-top: 70px;
+    }
+    #secAE{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 470px;
+        height: 200px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #cards{
+        transform: scale(0.88);
+    }
+    #footer div{
+        width: 90%;
+    }
+    #logoFoo{
+        width: 20%;
+        margin-left: 30px;
+        color: white;
+        margin: 0;
+    }
+    #line{
+        width: 500px;
+        top: 1470px;
+    }
+    #result{ 
+        width: 80%;
+    }
+}
