@@ -1,57 +1,60 @@
-const getForm = document.querySelector('form')
-const getInput = document.querySelector("input")
-const getBox = document.querySelector("#box")
-let myDiv
-const div = `<sec id="secAE"><h2>Advanced Statistics</h2><p>Track how your links are performing 
-  across the web with our advanced statistics dashboard.</p></sec><section id="line"></section><section id="cards">
-  <sec class="card um" ><section id="imgS"><img src="images/icon-brand-recognition.svg" alt="Brand Recognition"></section>
-  <h2>Brand Recognition</h2><p>Boost your brand recognition with each click. Generic links don’t mean a thing. 
-  Branded links help instil confidence in your content.</p></sec>
-  <sec class="card dois">
-    <section id="imgS"><img src="images/icon-detailed-records.svg" alt="Detailed Records"></section>
-    <h2>Detailed Records</h2>
-    <p>Gain insights into who is clicking your links. Knowing when and where 
-      people engage with your content helps inform better decisions.</p>
-  </sec>
-  <sec class="card tres">
-    <section id="imgS"><img src="images/icon-fully-customizable.svg" alt="Fully Customizable"></section>
-    <h2>  Fully Customizable</h2>
-    <p> Improve brand awareness and content discoverability through customizable 
-      links, supercharging audience engagement.</p>
-  </sec>
-</section>`
-getForm.addEventListener('submit', async function (event){
-    event.preventDefault()
-    let input = getInput.value
-    let result = await fetch (`https://api.shrtco.de/v2/shorten?url=${input}`)
-    let shotResult = await result.json()
+const input = document.querySelector("input")
+let messageErro = document.querySelector('#messageErro')
+let container = document.querySelector('.container-the-results')
+let backResult = ""
+let first = "first"
+let n = 1
 
-    if (shotResult.ok) {
-        myDiv = `<div id="result"><p id="bigLink">${shotResult.result.original_link}</p><section id="boxCopy">
-        <p id="litleLink">${shotResult.result.short_link}</p><button  class="but click" Onclick="copy()">Copy</button></section></div>`
-        getBox.innerHTML = myDiv + div
-        let getResult = document.querySelectorAll("#result")
-        let getLine = document.getElementById("line")
-        let x = 1070 + (getResult.length * 70)
-        getLine.style.top=`${x}px`
-    }else{
-
-    }
-    getInput.value = ""
-})
-function copy() {
-    let botao = document.querySelector(".click")
-    let linkCurto = document.querySelector("#litleLink")
-    botao.classList.add("active")
-    botao.innerHTML = "Copied!"
-    navigator.clipboard.writeText(linkCurto.textContent)
+// Add event of submit the form
+document.getElementById("form").addEventListener('submit', async function(event){
+  event.preventDefault()// Taking out loading
+  let result = await fetch (`https://api.shrtco.de/v2/shorten?url=${input.value}`)// request for API
+  let shotResult = await result.json() // Request for API
+  if (shotResult.ok == true) { // if have erro
+    changeStyleErro(1) //Change style where hepper a error  or where arrange the error
+    createSectionResult(shotResult.result.original_link, shotResult.result.short_link) //Create an section of result
+  }else{ // Else not have erro
+    changeStyleErro(0) //Change style where hepper a error  or where arrange the error
+  }
+});
+//Change style where hepper a error  or where arrange the error
+function changeStyleErro(control) {
+  if (control==1) {
+    input.style.border="none"
+    messageErro.style.visibility="hidden"
+  }else{
+    input.style.border="solid 2px red"
+    messageErro.style.visibility="visible"
+  }
 }
-
-
-
-
-
-
-
-
-
+//Create an section of result
+function createSectionResult(linkOrigin, linkShort) {
+      backResult = backResult + 
+       `<section class="box-the-results id=${first}>
+          <p id="full-link">${linkOrigin}</p>
+          <p id="short-link">${linkShort}</p>
+          <button class="btn" id="${n}"onclick="copyTransferArea('${linkShort}',${n})">Copy</button>
+        </section>`
+    container.innerHTML = backResult
+    n = n + 1
+}
+//Copy for transfer area
+function copyTransferArea(linkShort, n) {
+  navigator.clipboard.writeText(linkShort)
+  let btnCopy = document.getElementById(`${n}`)
+  btnCopy.innerHTML = "Copied!"
+  changeStyleToCopy(btnCopy)
+}
+//Change style the button to copy
+function changeStyleToCopy(btnCopy) {
+  btnCopy.style.background="#000000"
+}
+// Open Box-nav for mobile devices
+$( ".bi-list" ).click(function() {
+  $( ".box-nav" ).show();
+  $( ".close-box-nav" ).show();
+});
+$( ".close-box-nav" ).click(function() {
+  $( ".box-nav" ).hide();
+  $( ".close-box-nav" ).hide();
+});  
