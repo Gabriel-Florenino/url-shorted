@@ -5,13 +5,13 @@
 </div>
 <div
   <div>
-  <h2>Versão para mobile</h2>
+  <h3>Versão para mobile</h3>
     <br>
       <img style="width:100%;"src="design/Completamente responsivo.png">
     <br>
   </div>
     <div>
-  <h2>Versão para desktop</h2>
+  <h3>Versão para desktop</h3>
     <br>
       <img style="width:100%;"src="design/Completamente responsivo (3).png">
     <br>
