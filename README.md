@@ -6,8 +6,9 @@
 
 <div>
   <img style="width:100%;"src="design/Completamente responsivo.png">
+  <img style="width:100%;"src="design/Completamente responsivo (1).png">
   
-  <h1 style="font-size: 30px;"> Visão geral </h1>
+  <h1> Visão geral </h1>
   <p>O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.</p>
 </div>
 
