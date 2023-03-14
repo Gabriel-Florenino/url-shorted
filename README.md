@@ -1,7 +1,7 @@
 Encurtador de URL
 Este é um site responsivo de encurtamento de URL que permite aos usuários encurtar URLs longas em URLs curtas. Este projeto foi construído com HTML, CSS, bootstrap, JavaScript e jquery.
 <div>
-  <img style="width:80%;"src="design/Completamente responsivo.png">
+  <img style="width:100%;"src="design/Completamente responsivo.png">
 </div>
 
 Visão geral
