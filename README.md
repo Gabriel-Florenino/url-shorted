@@ -5,12 +5,15 @@
 </div>
 
 <div>
+  <br>
   <img style="width:100%;"src="design/Completamente responsivo.png">
-  
+  <br>
   <h1> Visão geral </h1>
   <p>O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.</p>
   <div>
+    <br>
    <img style="width:100%;"src="design/Completamente responsivo (1).png">
+    <br>
   </div>
  
   
