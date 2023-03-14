@@ -44,16 +44,8 @@
     <li>Carregue os arquivos para um servidor web.</li>
     <li>Acesse o site pelo navegador.</li>
   </ul>
-  
+  <h2> Contribuição </h2>
+  <p>Se você gostaria de contribuir para este projeto, sinta-se livre para abrir uma "issue" ou enviar um "pull request".</p>
 </div>
 
 
-
-
-
-
-Contribuição
-Se você gostaria de contribuir para este projeto, sinta-se livre para abrir uma "issue" ou enviar um "pull request". Toda ajuda é bem-vinda!
-
-Licença
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
