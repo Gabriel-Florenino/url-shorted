@@ -1,17 +1,18 @@
 <div>
   <h1 style="font-size: 35px;">Encurtador de URL</h1>
-  <p style="font-size: 18px;black text-decoration:none; color:;">Este é um site responsivo de encurtamento de URL que permite aos usuários encurtar URLs longas em URLs curtas. Este projeto foi construído com <a href="https://developer.mozilla.org/pt-BR/">HTML</a>, <a href="https://developer.mozilla.org/pt-BR/">CSS</a>, <a href="https://getbootstrap.com/">bootstrap</a>, <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a> e <a href="https://jquery.com/">jquery</a>.</p>
   
+  <p style="font-size: 18px;black text-decoration:none; color:;">Este é um site responsivo de encurtamento de URL que permite aos usuários encurtar URLs longas em URLs curtas. Este projeto foi construído com <a href="https://developer.mozilla.org/pt-BR/">HTML</a>, <a href="https://developer.mozilla.org/pt-BR/">CSS</a>, <a href="https://getbootstrap.com/">bootstrap</a>, <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a> e <a href="https://jquery.com/">jquery</a>.</p>
 </div>
-
-
 
 <div>
   <img style="width:100%;"src="design/Completamente responsivo.png">
+  
+  <h1 style="font-size: 30px;"> Visão geral </h1>
+  <p>O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.</p>
 </div>
 
-Visão geral
-O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.
+
+
 
 Recursos
 Design responsivo: O site apresenta um design elegante e moderno que é otimizado para dispositivos móveis e desktops. O layout é limpo e intuitivo, com um esquema de cores agradável e fácil de ler.
