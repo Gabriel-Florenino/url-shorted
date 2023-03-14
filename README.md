@@ -3,9 +3,9 @@
   <p style="font-size: 18px;black text-decoration:none; color:;">Este é um site responsivo de encurtamento de URL que permite aos usuários encurtar URLs longas em URLs     curtas. Este projeto foi construído com <a href="https://developer.mozilla.org/pt-BR/">HTML</a>, <a href="https://developer.mozilla.org/pt-BR/">CSS</a>, <a             href="https://getbootstrap.com/">bootstrap</a>, <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a> e 
     <a href="https://jquery.com/">jquery</a>.</p>
   
-    <h1> Visão geral </h1>
-    <p>O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface
-      responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.</p>
+  <h1> Visão geral </h1>
+  <p>O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface
+    responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.</p>
 </div>
 <div
   <div>
