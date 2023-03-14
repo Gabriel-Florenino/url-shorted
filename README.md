@@ -1,8 +1,8 @@
 Encurtador de URL
 Este é um site responsivo de encurtamento de URL que permite aos usuários encurtar URLs longas em URLs curtas. Este projeto foi construído com HTML, CSS, bootstrap, JavaScript e jquery.
-
-<img style="width:80%;"src="design/Completamente responsivo.png">
-
+<div>
+  <img style="width:80%;"src="design/Completamente responsivo.png">
+</div>
 
 Visão geral
 O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.
