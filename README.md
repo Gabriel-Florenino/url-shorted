@@ -9,10 +9,9 @@ Design responsivo: O site apresenta um design elegante e moderno que é otimizad
 
 
 <div>
-    <img src="design/mobile-design.jpg">
+    <img height: 750px src="design/mobile-design.jpg">
     <img src="design/mobile-navigation.jpg">
 </div>
-
 
 
 Como funciona
