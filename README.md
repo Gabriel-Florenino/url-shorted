@@ -9,8 +9,10 @@
   
   <h1> Visão geral </h1>
   <p>O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.</p>
-  
-  <img style="width:100%;"src="design/Completamente responsivo (1).png">
+  <div>
+   <img style="width:100%;"src="design/Completamente responsivo (1).png">
+  </div>
+ 
   
    <h1> Recursos </h1>
   <p>Design responsivo: O site apresenta um design elegante e moderno que é otimizado para dispositivos móveis e desktops. O layout é limpo e intuitivo, com um esquema de cores agradável e fácil de ler.</p>
