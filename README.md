@@ -10,7 +10,7 @@
       <img style="width:100%;"src="design/Completamente responsivo.png">
     <br>
   </div>
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
   <h1> Visão geral </h1>
   <p>O Encurtador de URL é um site elegante e fácil de usar que permite que os usuários encurtem URLs longas em URLs curtas e compartilháveis. Com uma interface
     responsiva, este site é a solução perfeita para quem precisa compartilhar links longos e complicados.</p>
@@ -20,11 +20,7 @@
       <img style="width:100%;"src="design/Completamente responsivo (1).png">
     <br>
   </div>
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <h1> Recursos </h1>
-  <p>Design responsivo: O site apresenta um design elegante e moderno que é otimizado para dispositivos móveis e desktops. O layout é limpo e intuitivo, com um esquema 
-    de cores agradável e fácil de ler.</p>
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
   <h1> Recursos </h1>
   <p>Design responsivo: O site apresenta um design elegante e moderno que é otimizado para dispositivos móveis e desktops. O layout é limpo e intuitivo, com um esquema de cores agradável e fácil de ler.</p>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -43,13 +39,19 @@
     <br>
   </div>
   
+  <h1> Como usar </h1>
+  <ul style="list-style:none; text-decoration:none;" >
+    <li>Clone o repositório: git clone https://github.com/seu-usuario/seu-repositorio.git</li>
+    <li>Carregue os arquivos para um servidor web.</li>
+    <li>Acesse o site pelo navegador.</li>
+  </ul>
   
 </div>
 
-Como usar
-Clone o repositório: git clone https://github.com/seu-usuario/seu-repositorio.git
-Carregue os arquivos para um servidor web.
-Acesse o site pelo navegador.
+
+
+
+
 
 Contribuição
 Se você gostaria de contribuir para este projeto, sinta-se livre para abrir uma "issue" ou enviar um "pull request". Toda ajuda é bem-vinda!
