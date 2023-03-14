@@ -5,8 +5,15 @@
 </div>
 <div
   <div>
+  <h2>Versão para mobile</h2>
     <br>
       <img style="width:100%;"src="design/Completamente responsivo.png">
+    <br>
+  </div>
+    <div>
+  <h2>Versão para desktop</h2>
+    <br>
+      <img style="width:100%;"src="design/Completamente responsivo (3).png">
     <br>
   </div>
 
