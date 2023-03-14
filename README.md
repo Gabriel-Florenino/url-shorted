@@ -7,14 +7,6 @@ O Encurtador de URL é um site elegante e fácil de usar que permite que os usu�
 Recursos
 Design responsivo: O site apresenta um design elegante e moderno que é otimizado para dispositivos móveis e desktops. O layout é limpo e intuitivo, com um esquema de cores agradável e fácil de ler.
 
-
-<div>
-    <img style="height: 750px" src="design/mobile-design.jpg">
-    <img src="design/mobile-navigation.jpg">
-</div>
-
-
-
 Como funciona
 O usuário insere uma URL longa no campo de entrada e clica no botão "Submit".
 O site gera uma URL curta única usando uma API.
