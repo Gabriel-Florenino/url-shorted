@@ -38,14 +38,18 @@
       <img style="width:100%;"src="design/Completamente responsivo (2).png">
     <br>
   </div>
-  <h2> Como usar </h2>
-  <ul style="list-style:none; text-decoration:none;" >
-    <li>Clone o repositório: git clone https://github.com/seu-usuario/seu-repositorio.git</li>
-    <li>Carregue os arquivos para um servidor web.</li>
-    <li>Acesse o site pelo navegador.</li>
-  </ul>
-  <h2> Contribuição </h2>
-  <p>Se você gostaria de contribuir para este projeto, sinta-se livre para abrir uma "issue" ou enviar um "pull request".</p>
+  <div>
+    <h2> Como usar </h2>
+    <ul style="list-style:none; text-decoration:none;" >
+      <li>Clone o repositório: git clone https://github.com/seu-usuario/seu-repositorio.git</li>
+      <li>Carregue os arquivos para um servidor web.</li>
+      <li>Acesse o site pelo navegador.</li>
+    </ul>
+  </div>
+  <div>
+    <h2> Contribuição </h2>
+    <p>Se você gostaria de contribuir para este projeto, sinta-se livre para abrir uma "issue" ou enviar um "pull request".</p>
+  </div>
 </div>
 
 
