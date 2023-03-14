@@ -1,6 +1,6 @@
 <div>
   <h1 style="font-size: 35px;">Encurtador de URL</h1>
-  <a href="https://developer.mozilla.org/pt-BR/"><p style="font-size: 18px;">Este é um site responsivo de encurtamento de URL que permite aos usuários encurtar URLs longas em URLs curtas. Este projeto foi construído com HTML, CSS, bootstrap, JavaScript e jquery.</p></a>
+  <p style="font-size: 18px;black text-decoration:none; color:;">Este é um site responsivo de encurtamento de URL que permite aos usuários encurtar URLs longas em URLs curtas. Este projeto foi construído com <a href="https://developer.mozilla.org/pt-BR/">HTML</a>, <a href="https://developer.mozilla.org/pt-BR/">CSS</a>, <a href="https://getbootstrap.com/">bootstrap</a>, <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a> e <a href="https://jquery.com/">jquery</a>.</p>
   
 </div>
 
